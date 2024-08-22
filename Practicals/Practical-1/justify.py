@@ -17,3 +17,12 @@ text = "The quick brown fox jumps over the lazy dog."
 L = 17
 jtext = justify(text, L)
 print(jtext)
+
+'''
+Output:
+
+The  quick  brown
+fox   jumps  over
+the lazy dog.  
+
+'''
