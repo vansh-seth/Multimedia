@@ -94,7 +94,3 @@ jumps  over
 the    lazy
 dog.      
 ```
-
----
-
-This `README.md` file provides a comprehensive overview of the problem, the approach taken to solve it, and the Python implementation. It is designed to be informative and accessible to developers looking to understand or use the script.
