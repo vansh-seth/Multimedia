@@ -1,6 +1,3 @@
-Sure! Here's a `README.md` file that describes the Python implementation of text justification in a clear and structured way:
-
----
 
 # Text Justification in Python
 
