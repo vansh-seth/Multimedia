@@ -79,13 +79,3 @@ To run tests:
 python -m unittest discover tests
 ```
 
-## Contributing
-
-We welcome contributions! Please fork this repository and submit a pull request.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/YourFeature`)
-3. Commit your Changes (`git commit -m 'Add Your Feature'`)
-4. Push to the Branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
-
