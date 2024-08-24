@@ -1,6 +1,3 @@
-Here's a sample `README.md` for a Text Justification project:
-
----
 
 # Text Justification
 
