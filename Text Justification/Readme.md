@@ -98,7 +98,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Your Name - [your.email@example.com](mailto:your.email@example.com)
 
 Project Link: [https://github.com/yourusername/text-justification](https://github.com/yourusername/text-justification)
-
----
-
-You can adjust the content as per your project's details, such as replacing placeholders with actual information.
