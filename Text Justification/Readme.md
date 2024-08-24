@@ -93,8 +93,3 @@ We welcome contributions! Please fork this repository and submit a pull request.
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
-
-Your Name - [your.email@example.com](mailto:your.email@example.com)
-
-Project Link: [https://github.com/yourusername/text-justification](https://github.com/yourusername/text-justification)
