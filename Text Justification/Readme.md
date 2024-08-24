@@ -54,15 +54,6 @@ The main steps to achieve text justification are:
 
 - Python 3.x
 
-### Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/text-justification.git
-cd text-justification
-```
-
 ### Running the Code
 
 To run the text justification script:
