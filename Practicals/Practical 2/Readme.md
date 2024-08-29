@@ -50,14 +50,7 @@ pip install numpy sounddevice
 
 A basic piano interface with labeled keys, ready to be played!
 
-## License
-
-This project is open-source and available under the MIT License.
-
 ## Acknowledgements
 
 - Python `tkinter` documentation for GUI creation.
 - `sounddevice` and `numpy` libraries for sound generation.
-```
-
-This README provides a comprehensive overview of the project, guiding users on installation, running, and understanding the code.
