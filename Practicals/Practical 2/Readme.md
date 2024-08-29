@@ -1,4 +1,3 @@
-```markdown
 # GUI Piano
 
 This project is a simple GUI-based piano application built using Python's `tkinter` library for the graphical user interface and `sounddevice` for sound playback. The piano can play musical notes corresponding to keys on a keyboard, providing a basic interactive tool for creating music.
