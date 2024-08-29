@@ -50,6 +50,9 @@ pip install numpy sounddevice
 
 A basic piano interface with labeled keys, ready to be played!
 
+![image](https://github.com/user-attachments/assets/db154f42-5581-4365-838f-01e03ff815f4)
+
+
 ## Acknowledgements
 
 - Python `tkinter` documentation for GUI creation.
