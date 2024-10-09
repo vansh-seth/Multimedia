@@ -1,10 +1,9 @@
 # Huffman Coding Algorithm
-
 Huffman coding is a lossless data compression algorithm that assigns variable-length codes to input characters based on their frequencies. The assigned codes are prefix codes, ensuring there is no ambiguity when decoding the generated bitstream.
 
 ## Prefix Codes
 
-Prefix codes are codes (bit sequences) assigned in such a way that the code assigned to one character is not the prefix of the code assigned to any other character. This eliminates ambiguity in decoding the compressed bitstream.
+Prefix codes are codes (bit sequences) assigned in such a way that the code assigned to one character is not the prefix of the code assigned to any other character. This eliminates the ambiguity in decoding the compressed bitstream.
 
 ### Counter Example
 
