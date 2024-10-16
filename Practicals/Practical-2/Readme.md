@@ -1,5 +1,29 @@
 # GUI Piano
 
+## Problem Statement
+Develop a simple GUI-based piano application using Python that allows users to interact with a graphical representation of a piano and play musical notes through a keyboard interface.
+
+## Approach
+1. **Technology Stack**:
+   - Used Python's `tkinter` library to create the graphical user interface for the piano.
+   - Employed the `sounddevice` library to handle sound playback, generating audio corresponding to the notes.
+   
+2. **Features Implemented**:
+   - **Graphical Interface**: Created a piano interface with both white and black keys, representing natural and sharp notes.
+   - **Sound Playback**: Integrated functionality to play the sound of notes when a key is pressed.
+   - **Note Range**: Covered a full octave, including notes from C4 to C5, to provide a range of musical notes.
+
+3. **How to Set Up**:
+   - Required Packages: Ensured `tkinter`, `numpy`, and `sounddevice` are installed in the environment.
+   - Step-by-step instructions for running the application:
+     ```bash
+     pip install numpy sounddevice
+     python piano.py
+     ```
+   - Provided code overview, explaining key functions like `play_note()` and how note frequencies are mapped.
+
+## Conclusion
+The GUI Piano application successfully creates an interactive and educational tool for playing and exploring music using Python. It provides a user-friendly interface, making it suitable for beginners to understand the basics of musical notes and sound generation.
 This project is a simple GUI-based piano application built using Python's `tkinter` library for the graphical user interface and `sounddevice` for sound playback. The piano can play musical notes corresponding to keys on a keyboard, providing a basic interactive tool for creating music.
 
 ## Features
