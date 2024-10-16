@@ -91,3 +91,26 @@ The codes for the characters are:
 | a         | 1100      |
 | b         | 1101      |
 | e         | 111       |
+
+
+# Huffman Coding Algorithm
+
+## Problem Statement
+Huffman Coding is a lossless data compression algorithm. The objective of the algorithm is to reduce the size of the data by encoding the characters based on their frequency of occurrence. It assigns shorter codes to more frequent characters and longer codes to less frequent ones, resulting in an efficient representation of data.
+
+## Algorithm
+The algorithm for Huffman Coding can be summarized in the following steps:
+
+1. **Frequency Calculation**: Calculate the frequency of each character in the input data.
+2. **Priority Queue Creation**: Create a priority queue (min-heap) where each node represents a character and its frequency. Nodes are sorted by frequency, with the least frequent nodes having the highest priority.
+3. **Build the Huffman Tree**:
+   - Remove the two nodes with the lowest frequency from the priority queue.
+   - Create a new internal node with these two nodes as children. The frequency of the new node is the sum of the two nodes' frequencies.
+   - Insert the new node back into the priority queue.
+   - Repeat the process until only one node remains in the queue (the root of the Huffman tree).
+4. **Generate Huffman Codes**: Traverse the Huffman tree from the root to each leaf node. Assign a '0' for a left edge and a '1' for a right edge to create the binary code for each character.
+5. **Encode the Data**: Replace each character in the original data with its corresponding Huffman code.
+6. **Decode the Data**: To decode the data, use the Huffman tree to map the encoded bits back to their respective characters.
+
+## Conclusion
+Huffman Coding is a highly efficient technique for data compression, particularly when there is a significant difference in character frequencies. It reduces the overall size of the data, making it useful for applications in file compression, data transmission, and storage. Its ability to create variable-length codes based on character frequencies makes it one of the most popular algorithms for lossless data compression.
